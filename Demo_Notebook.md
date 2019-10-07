@@ -12,11 +12,7 @@ The function prepare_mps.MPS_to_circuit(A, phi_initial, phi_final) constructs a 
 
 <img src="registers.png" width="60%">
 
-i.e., the first $n$ qubits are in a product state with the rest of the system. Those first $n$ qubits are ancilla qubits and they are guaranteed to be in the (normalized version of) $\phi_\text{initial}$. Here, $n$ is the logarithm of the bond dimension (rounded up).
-
-\begin{equation*}
-n = \log(\chi)))
-\end{equation*}
+i.e., the first n qubits are in a product state with the rest of the system. Those first $n$ qubits are ancilla qubits and they are guaranteed to be in the (normalized version of) phi_initial. Here, n is the logarithm of the bond dimension (rounded up), n = log(chi)
 
 Currently the bond dimension of all matrices has to be the same and a power of 2, but this is fixed easily by appending zeros to any given matrix. Let's look at some code:
 
