@@ -3,9 +3,8 @@
 
 Matrix Product States are a class of wavefunctions that have found widespread use in Quantum Physics and, to some extent, machine learning. This notebook is not meant to even touch on the vast literature on MPS (see https://arxiv.org/abs/1603.03039 for a marvelous review). Here, we merely show how to use the prepare_mps package in this repository.
 
-Given a set of $d \times \chi \times \chi$ (physical, left, right) matrices $A_1, \dots A_N$ and a set of boundary vectors $\phi_\text{initial}$ and $\phi_\text{final}$ of size $\chi$, our definition is as follows
+Given a set of d x chi x chi (physical, left, right) matrices A_1, ... A_N and a set of boundary vectors phi_initial and phi_final of size chi, our definition is as follows
 
-<img src="https://latex.codecogs.com/gif.latex?s=\text{ $d \times \chi \times \chi$}"
 
 <img src="defn.png" width="80%">
 
