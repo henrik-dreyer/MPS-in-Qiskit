@@ -5,7 +5,7 @@ Matrix Product States are a class of wavefunctions that have found widespread us
 
 Given a set of $d \times \chi \times \chi$ (physical, left, right) matrices $A_1, \dots A_N$ and a set of boundary vectors $\phi_\text{initial}$ and $\phi_\text{final}$ of size $\chi$, our definition is as follows
 
-<img src="https://latex.codecogs.com/gif.latex?s=\text { $d \times \chi \times \chi$ }  " /
+<img src="https://latex.codecogs.com/gif.latex?s=\text{ $d \times \chi \times \chi$}"
 
 <img src="defn.png" width="80%">
 
