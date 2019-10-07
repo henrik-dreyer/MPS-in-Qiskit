@@ -83,17 +83,6 @@ print("The statevector produced by the circuit is \n {}".format(exp))
 
 
 ## Prepare a GHZ state
-The following is the standard $\chi=2$ MPS representation of the GHZ state (showing non-zero entries only):
-
-\begin{align*}
-    A^0_{0,0} &= 1 \\
-    A^1_{1,1} &= 1 \\
-    \phi_\text{initial} = \phi_\text{final} &= \frac{1}{\sqrt{2}}\begin{pmatrix}
-    1 \\
-    1 \\
-\end{pmatrix}
-\end{align*}
-
 
 ```python
 from qiskit import ClassicalRegister
